@@ -149,6 +149,8 @@ def teamWrite(a,channelname):
     print("    获取team")
     jsontxt = json.loads(apiReq('get',a,url))
     objectlist=jsontxt['value']
+    print(objectlist)
+    print(jsontxt)
     #创建
     print("    创建team频道")
     data={
